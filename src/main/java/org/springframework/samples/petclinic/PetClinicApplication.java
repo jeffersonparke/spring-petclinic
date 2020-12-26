@@ -41,9 +41,6 @@ public class PetClinicApplication {
         ints.add(1);
 
         Collections.sort(ints, (n1, n2) -> n1.compareTo(n2));
-        for (Integer i : ints) {
-            System.out.println(i);
-        }
+        ints.forEach(i -> System.out.println(i));
     }
-
 }
