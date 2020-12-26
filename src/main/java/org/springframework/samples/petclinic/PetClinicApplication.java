@@ -35,7 +35,7 @@ public class PetClinicApplication {
     }
 
     public static void main(String[] args) {
-        List<Integer> ints = new ArrayList<Integer>();
+        var ints = new ArrayList<Integer>();
 
         ints.add(2);
         ints.add(1);
